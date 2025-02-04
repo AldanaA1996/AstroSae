@@ -1,0 +1,16 @@
+---
+import { Layout } from "@globals";
+import { Image } from 'astro:assets';
+import BackgroundImage from "@img/login-bg.png?url";
+import { Login } from "../components/global/Forms";
+import { BrowserRouter } from 'react-router-dom';
+---
+
+<Layout title="SAE Management">
+  <div class="flex h-screen w-full items-start">
+    <Image src={BackgroundImage} alt="icon" width={648} height={1500} />
+    
+      <Login />
+
+  </div>
+</Layout>

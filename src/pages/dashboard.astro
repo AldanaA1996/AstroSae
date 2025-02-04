@@ -1,0 +1,16 @@
+---
+// Component imports
+import { Layout } from "@globals"
+import BackgroundImage from "@img/login-bg.png?url"
+{/* import { Dashboard } from "../components/global/Dashboard" */}
+import { Header} from "../components/global/Header"
+---
+
+<Layout title="SAE Management"> 
+    <div class="flex h-screen w-full items-start"> 
+        <div class="relative w-1/2 h-full flex flex-col">
+            <img src={BackgroundImage} alt="" class='w-full h-full object-cover' />
+        </div>
+        <Header />
+        <Dashboard	/>
+    </div>
