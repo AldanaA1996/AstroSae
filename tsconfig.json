@@ -15,9 +15,6 @@
 			"@img/*": ["src/assets/img/*"],
 			"@svg/*": ["src/assets/svg/*"],
 			"@icon/*": ["src/assets/svg/icon/*"]
-		},
-		"allowSyntheticDefaultImports": true,
-		"jsx": "react",
-
+		}
 	}
 }
